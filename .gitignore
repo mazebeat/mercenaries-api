@@ -1,0 +1,33 @@
+# Generic
+*~
+*.iml
+*.idea
+*.settings
+dist
+.sass-cache
+
+# JAVASCRIPT
+## Node
+node_modules
+src/main/webapp/resources/dist/bundle.js
+src/main/webapp/resources/js/bundle.js
+src/main/webapp/bower_components/
+
+# PHP
+/public/hot
+/public/storage
+
+## Laravel
+storage/*.key
+/vendor
+.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+.env
+
+# JAVA
+bin
+src/test/
+target/
+spring-security-mvc.iml
